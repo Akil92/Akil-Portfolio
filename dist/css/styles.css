@@ -10947,18 +10947,18 @@ p.lead {
 
 section.resume-section {
   display: flex;
-  align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 50vh;
   }
 }
 @media (min-width: 992px) {
